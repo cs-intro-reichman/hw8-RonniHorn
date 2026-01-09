@@ -57,6 +57,8 @@
             return false;
         if(this.follows(name) == true)
             return false;
+        if(this.name.equals(name))
+            return false;
         this.follows[this.fCount] = name; 
         this.fCount++;
         return true;
