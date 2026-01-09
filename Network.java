@@ -105,6 +105,8 @@ public class Network {
             }
 
         }
+        if(popular == null)
+            return null;
         return popular.getName();
     }
 
